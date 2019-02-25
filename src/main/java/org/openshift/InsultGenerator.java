@@ -10,8 +10,6 @@ public class InsultGenerator {
 		String article = "an";
 		String theInsult = "";
 		
-		test fail
-
 		try {
 			String databaseURL = "jdbc:postgresql://";
 			databaseURL += System.getenv("POSTGRESQL_SERVICE_HOST");
