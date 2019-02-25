@@ -15,4 +15,12 @@ public class InsultResource {
         theInsult.put("insult", new InsultGenerator().generateInsult());
         return theInsult;
     }
+    
+    @GET("/test")
+    @Produces("application/json")
+    public HashMap<String,String> getInsult() {
+        HashMap<String, String> theInsult = new HashMap<String, String>();
+        theInsult.put("adevarat", "se stieeee");
+        return theInsult;
+    }
 }
